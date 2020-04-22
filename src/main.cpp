@@ -16,6 +16,7 @@
 	1 -> CTRL + m (e.g. WebEx)
 	2 -> M (e.g. Jitsy)
 	3 -> ALT + a (e.g. Zoom)
+	4 -> F20 (e.g. Linux XF86AudioMicMute)
 */
 #define PRIMARY_BUTTON_KEY_MAPPING		0
 #define SECONDARY_BUTTON_KEY_MAPPING	0
@@ -48,6 +49,10 @@ void sendMuteMicKeys(const uint8_t mapping)
 		case 3:
 			Keyboard.press(KEY_LEFT_ALT);
 			Keyboard.press('a');
+			break;
+			
+		case 4:
+			Keyboard.write(KEY_F20);
 			break;
 	}	 
 	delay(100);
