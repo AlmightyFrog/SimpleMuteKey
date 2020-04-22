@@ -10,3 +10,4 @@ Following mappings are available to assign to buttons individual:
 *	1 -> CTRL + m (e.g. WebEx)
 *	2 -> M (e.g. Jitsy)
 *	3 -> ALT + a (e.g. Zoom)
+*	4 -> F20 (e.g. Linux XF86AudioMicMute)
